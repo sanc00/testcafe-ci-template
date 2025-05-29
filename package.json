@@ -1,0 +1,7 @@
+{
+"name" : "testcafe-ci-template",
+"version": "1.0.0",
+"scripts": {
+"test": "testcafe chrome tests/*.test.ts" 
+}
+}
