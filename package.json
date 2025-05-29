@@ -1,7 +1,11 @@
 {
-"name" : "testcafe-ci-template",
-"version": "1.0.0",
-"scripts": {
-"test": "testcafe chrome tests/*.test.ts" 
-}
+    "name" : "testcafe-ci-template",
+    "version": "1.0.0",
+    "scripts": {
+    "test": "testcafe chrome tests/*.test.ts"
+    },
+    "devDependencies": {
+        "testcafe": "^3.5.0",
+        "typescript": "^5.8.3"
+    }
 }
