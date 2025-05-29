@@ -9,13 +9,12 @@
         "outDir": "./dist"
     },
     "include": [
-        "tests/**/*.ts", 
-        "page-models/**/*.ts", 
-        "utils/**/*.ts"
+        "tests", 
+        "page-models", 
+        "utils"
     ],
     "exclude": [
         "node_modules",
-        "dist",
         ".github",
         "Jenkinsfile"
     ]
