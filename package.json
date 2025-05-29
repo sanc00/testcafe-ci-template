@@ -1,11 +1,16 @@
 {
-    "name" : "testcafe-ci-template",
+    "name": "testcafe-ci-template",
     "version": "1.0.0",
     "scripts": {
-    "test": "testcafe chrome tests/*.test.ts"
+        "test": "testcafe chrome tests/*.tests.ts"
     },
     "devDependencies": {
         "testcafe": "^3.5.0",
         "typescript": "^5.8.3"
-    }
+    },
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
