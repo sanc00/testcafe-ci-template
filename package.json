@@ -2,7 +2,7 @@
     "name": "testcafe-ci-template",
     "version": "1.0.0",
     "scripts": {
-        "test": "testcafe chrome tests/*.tests.ts"
+        "test": "testcafe chrome,edge tests/*.test.ts"
     },
     "devDependencies": {
         "testcafe": "^3.5.0",
